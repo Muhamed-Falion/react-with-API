@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-with-API/static/css/main.736d00c4.css",
+    "main.js": "/react-with-API/static/js/main.44a0f961.js",
+    "static/js/787.a2a10582.chunk.js": "/react-with-API/static/js/787.a2a10582.chunk.js",
+    "static/media/book.png": "/react-with-API/static/media/book.78fceb43950dd57eeca3.png",
+    "static/media/Logo-Light.svg": "/react-with-API/static/media/Logo-Light.1fcbd0a9eb0848325f290877768cc152.svg",
+    "static/media/Logo-Dark.svg": "/react-with-API/static/media/Logo-Dark.46166f823aaf0404c91ebef3a95bba72.svg",
+    "static/media/book-open-01.svg": "/react-with-API/static/media/book-open-01.38e375dfdbb0e0ff4c6d8bd1cd0c22ba.svg",
+    "index.html": "/react-with-API/index.html",
+    "static/media/moon-01.svg": "/react-with-API/static/media/moon-01.03b6d4ec8b1bf07c548198c1f84f871f.svg",
+    "static/media/sun.svg": "/react-with-API/static/media/sun.1f5fcab2a3f270547b010629fcbf6453.svg",
+    "static/media/bi_star-fill (1).svg": "/react-with-API/static/media/bi_star-fill (1).d8a5aabb4ec424518eacc75e23f9c40b.svg",
+    "static/media/fi-bs-cross.svg": "/react-with-API/static/media/fi-bs-cross.1c00085a71f342a53a10f48cd4278b94.svg",
+    "main.736d00c4.css.map": "/react-with-API/static/css/main.736d00c4.css.map",
+    "main.44a0f961.js.map": "/react-with-API/static/js/main.44a0f961.js.map",
+    "787.a2a10582.chunk.js.map": "/react-with-API/static/js/787.a2a10582.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.736d00c4.css",
+    "static/js/main.44a0f961.js"
+  ]
+}
