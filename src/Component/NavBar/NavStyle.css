@@ -1,0 +1,166 @@
+.bworld img{
+    width: 100px;
+    height: 26px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 7;
+}
+.dark{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   
+    z-index: 3;
+    color: white;
+}
+.bworld{
+    padding-top: 33px;
+}
+.ul{
+    padding-top: 33px;
+}
+.ul ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.ul ul li{
+    cursor: pointer;
+}
+.mode{
+    display: flex;
+    gap: 5px;
+    padding-top: 33px;
+}
+.active{
+    color: white;
+    text-decoration-color: white;
+    text-decoration-thickness: 0px;
+    
+  }
+  .menicon{
+    display: none;
+  }
+  .mobcont{
+    display: none;
+  }
+  .mobnav{
+    display: none;
+  }
+  .mobnavdark{
+    display: none;
+  }
+  .mobnav img{
+    display: none;
+  }
+
+  .list{
+    display: none;
+  }
+  .linenav{
+display: none;
+
+}
+.mobmod{
+    display: none;
+}
+
+
+ @media screen  and (max-width:700px) {
+    .ul{
+        display: none;
+    }
+    .mode{
+        display: none;
+    }
+    .menicon{
+        display: block;
+        padding-top: 33px;
+    }
+    .mobcont{
+        display: block;
+    }
+    .mobnav{
+        
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 20px;
+        background-color: white;
+       
+       
+        z-index: 8;
+    }
+  
+      .mobnavdark{
+        display: block;
+        background-color: black;
+       color: #FFF;
+        
+        z-index: 8;
+        padding-top: 30px;
+        padding-left: 20px;
+      }
+    .sw {
+        background-color: #937DC2 !important;
+     }
+     .switch{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        padding-left: 21px;
+        padding-top: 18px;
+     }
+     .mobcont{
+        width: 75%;
+        display: none;
+       height: 100vh;
+        
+        background: var(--White, #FFF);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+        
+       
+      }
+      .mobcontdark{
+        width: 75%;
+        display: none;
+       height: 100vh;
+        
+        background: black;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+      }
+      .mobnav img{
+        display: block;
+       width: 18px;
+       height: 18px;
+     }
+     .list{
+        display: flex;
+        flex-direction: column;
+       
+        padding-top: 37px;
+        gap: 20px;
+        font-weight: 400;
+      }
+      .linenav{
+        display: block;
+        width: 100vw;
+        height: 1.001px;
+        margin-top: 60px;
+    background: rgba(147, 125, 194, 0.60);
+    
+    }
+    .mobmod{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+   
+  }

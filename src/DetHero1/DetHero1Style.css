@@ -1,0 +1,154 @@
+.details1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.details1dark{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+.rightdet{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.view4{
+    display: flex;
+    flex-wrap: wrap;
+width: 310px;
+height: 45px;
+
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+flex-shrink: 0;
+background-color: #937DC2;
+margin-top: 12px;
+}
+.view4 button{
+    width: 100px;
+height: 30px;
+    background-color: #937DC2;
+    border: none;
+    color: white;
+}
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+.viwe5{
+    width: 310px;
+height: 45px;
+    border-radius: 3.004px;
+border: 1.001px solid var(--violet, #C689C6);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+margin-top: 12px;
+}
+.viwe5 button{
+    
+width: 100px;
+height: 30px;
+color: #C689C6;
+border: none;
+background-color: white;
+}
+.viwe5black{
+    width: 310px;
+    height: 45px;
+    border-radius: 3.004px;
+border: 1.001px solid var(--violet, #C689C6);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+margin-top: 12px;
+}
+.viwe5black button{
+    width: 100px;
+    height: 30px;
+    color: #C689C6;
+    border: none;
+    background-color: black;
+}
+.line5{
+    width: 95%;
+    height: 1.001px;
+    background: rgba(147, 125, 194, 0.60);
+    margin-top: 40px;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 200px;
+}
+.auth p{
+ color: grey;
+}
+
+.about{
+    padding-top: 20px;
+}
+.discrib{
+    padding-top: 10px;
+    line-height: 24.033px; 
+    color: var(--Black, #0F0F0F);
+}
+.blackdiscrib{
+    padding-top: 10px;
+    line-height: 24.033px; 
+    color: white;
+}
+.numbers{
+    padding-top: 40px;
+    
+}
+.reviwe{
+    padding-top: 20px;
+   
+}
+.numbers span,.reviwe span{
+    color: #C689C6;
+}
+.book img{
+    width: 375px;
+    height: 600px;
+}
+@media screen  and (max-width:700px) {
+
+    .view4{
+        width: 88%;
+    }
+    .viwe5black{
+        width: 88%;}
+        .viwe5{
+            width: 88%;}
+            .book img{
+                width: 75%;
+                height: 100%;
+            }
+            .book{
+                width: 85%;
+                display: flex;
+                justify-self: center;
+                padding-left: 40px;
+            }
+            .numbers{
+                
+                gap: 20px;
+            }
+
+
+}

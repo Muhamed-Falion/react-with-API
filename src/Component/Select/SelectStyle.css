@@ -1,0 +1,94 @@
+.select h2{
+    padding-left: 78px;
+    padding-top: 200px;
+   
+}
+.darkselect h2{
+    padding-left: 78px;
+    padding-top: 200px;
+}
+
+.darkselect{
+    background-color: black;
+    color: white;
+}
+.cards{
+    padding-top: 46px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.last4{
+    margin-top: 46px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.details{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.star{
+    display: flex;
+    gap: 5px;
+}
+.view{
+    display: flex;
+width: 280px;
+height: 45px;
+padding: 12.017px 32.044px;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+flex-shrink: 0;
+background-color: #937DC2;
+margin-top: 12px;
+cursor: pointer;
+}
+.view button{
+    background-color: #937DC2;
+    border: none;
+    color: white;
+   
+}
+.card1{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.poster img{
+    width: 280px;
+    
+}
+.nameofwriter p{
+    font-weight: 600;
+    
+}
+@media screen  and (max-width:700px) {
+    .cards,.last4{
+
+gap: 80px;
+    }
+    .select h2{
+       padding-left: 0px;
+        padding-top: 200px;
+        text-align: center;
+       
+    }
+    .darkselect h2{
+        text-align: center;
+        padding-top: 200px;
+        padding-left: 0px;
+    }
+}
