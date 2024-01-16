@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-with-API/static/css/main.736d00c4.css",
-    "main.js": "/react-with-API/static/js/main.44a0f961.js",
+    "main.js": "/react-with-API/static/js/main.5352ca28.js",
     "static/js/787.a2a10582.chunk.js": "/react-with-API/static/js/787.a2a10582.chunk.js",
     "static/media/book.png": "/react-with-API/static/media/book.78fceb43950dd57eeca3.png",
     "static/media/Logo-Light.svg": "/react-with-API/static/media/Logo-Light.1fcbd0a9eb0848325f290877768cc152.svg",
@@ -13,11 +13,11 @@
     "static/media/bi_star-fill (1).svg": "/react-with-API/static/media/bi_star-fill (1).d8a5aabb4ec424518eacc75e23f9c40b.svg",
     "static/media/fi-bs-cross.svg": "/react-with-API/static/media/fi-bs-cross.1c00085a71f342a53a10f48cd4278b94.svg",
     "main.736d00c4.css.map": "/react-with-API/static/css/main.736d00c4.css.map",
-    "main.44a0f961.js.map": "/react-with-API/static/js/main.44a0f961.js.map",
+    "main.5352ca28.js.map": "/react-with-API/static/js/main.5352ca28.js.map",
     "787.a2a10582.chunk.js.map": "/react-with-API/static/js/787.a2a10582.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.736d00c4.css",
-    "static/js/main.44a0f961.js"
+    "static/js/main.5352ca28.js"
   ]
 }
